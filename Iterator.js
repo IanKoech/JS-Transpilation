@@ -1,5 +1,5 @@
 console.log(19);
-var names=['Ian','Kipchumba','Koech','Kulei'];
+let names=['Ian','Kipchumba','Koech','Kulei'];
 names.forEach(names=>{
     console.log(names);
 });
