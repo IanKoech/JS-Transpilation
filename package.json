@@ -1,20 +1,26 @@
 {
-  "name": "es5",
+  "name": "myfirstrepo",
   "version": "1.0.0",
   "description": "",
   "main": "Iterator.js",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-es2015": "^6.24.1",
-    "bindings": "^1.5.0",
-    "nan": "^2.14.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"babel scr -d lib"
+    "build": "babel src --out-dir lib",
+    "start": "node lib//iterator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanKoech/myFirstRepo.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanKoech/myFirstRepo/issues"
+  },
+  "homepage": "https://github.com/IanKoech/myFirstRepo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.3"
+  }
 }
