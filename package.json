@@ -5,7 +5,8 @@
   "main": "Iterator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel Iterator.js --out-file lib\iterator.js"
+    "build": "babel src --out-dir lib",
+    "start": "node lib//iterator.js"
   },
   "repository": {
     "type": "git",
